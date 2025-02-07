@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity=
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">SOWMIYA</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                              Home
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                              About
+                          </a>
+                    </li>
+
+                    <li class="menu-list-items">
+                        <a class="links" href="#skills">
+                              Skills
+                          </a>
+                    </li>
+
+                    <li class="menu-list-items">
+                        <a class="links" href="#projects">
+                              Projects
+                          </a>
+                    </li>
+
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Sowmiya</h1>
+                <h2 style="font-family: cursive;">Frontend Developer</h2>
+                <h4 class="sub-heading">
+                    A passionate Software Engineer with a strong academic foundation, eager to start a dynamic career in tech.
+                </h4>
+            </div>
+            <div class="intro-buttons">
+                <a href="#contact">
+                    <button class="btn common-btn">Hire Me</button>
+                </a>                
+                <a href="Sowmiya.pdf" download>
+                    <button class="btn ghost-btn">Get Resume</button>
+                </a>
+            </div>
+           
+        </div>
+        
+    </section>
+
+    <!-- About Section -->
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="about-text">
+        <h1 class="my-heading">About Me</h1>
+        <p class="lead-para">
+            Hi! I'm <span class="highlight-text">Sowmiya</span>, a passionate and driven Software Engineer with a knack for solving problems and building innovative solutions. With a strong background in <span class="highlight-text">Java</span> and <span class="highlight-text">React.js</span>, I’m excited about transforming ideas into reality using technology.
+        </p>
+        <p>
+            I graduated with a B.Tech in Information Technology and have always been fascinated by the potential of technology to change the world. I'm particularly skilled in full-stack development and love tackling challenges head-on, whether it’s improving user experience or optimizing code performance.
+        </p>
+        <p>
+            I'm constantly exploring new technologies and frameworks to stay up to date with the ever-evolving tech industry. My goal is to contribute to meaningful projects that have a positive impact on people and businesses.
+        </p>
+    </div>
+    <div class="about-image">
+        <img src="sowmiya.jpg" alt="Sowmiya's Photo" class="about-photo">
+    </div>
+
+</section>
+
+ 
+<!-- Skills Section -->
+<section class="skills" id="skills">
+    <div class="skills-heading">
+        <h1 class="my-heading">Skills</h1>
+    </div>
+    <div class="skills-content">
+        <div class="skill">
+            <img src="java.png" alt="Java Logo" class="skill-logo">
+            <h3 class="greet-heading">Java</h3>
+            <div class="skill-bar">
+                <div class="skill-level java"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <img src="react.png" alt="React.js Logo" class="skill-logo">
+            <h3 class="greet-heading">React.js</h3>
+            <div class="skill-bar">
+                <div class="skill-level react"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <img src="html.png" alt="htmlimage" class="skill-logo">
+            <h3 class="greet-heading">HTML</h3>
+            <div class="skill-bar">
+                <div class="skill-level html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <img src="css.png" alt="CSS Logo" class="skill-logo">
+            <h3 class="greet-heading">CSS</h3>
+            <div class="skill-bar">
+                <div class="skill-level css"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <img src="js.png" alt="JavaScript Logo" class="skill-logo">
+            <h3 class="greet-heading">JavaScript</h3>
+            <div class="skill-bar">
+                <div class="skill-level js"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+       <!-- Projects Section -->
+<section class="projects" id="projects">
+    <div class="projects-heading">
+        <h1 class="my-heading text-center">My Projects</h1>
+        <p class="sub-heading text-center">Here are some of my works that showcase my skills and experience.</p>
+    </div>
+    <div class="projects-grid">
+        <!-- Project Card 1 -->
+        <div class="project-card">
+            <!-- <img src="project1.jpg" alt="Project 1" class="project-img"> -->
+            <div class="project-info">
+                <h3 class="project-title">Wearable Guardian</h3>
+                <p class="project-description">The Wearable Guardian Project focuses on creating wearable safety devices like smartwatches or pendants that provide personal security. These devices feature SOS alerts, GPS tracking, health monitoring, and two-way communication to assist users during emergencies. Discreetly designed, they ensure real-time protection and connectivity, making them ideal for enhancing personal safety.
+
+                </p>
+                <a href="https://github.com/" target="_blank" class="project-link">View Project</a>
+            </div>
+        </div>
+        <!-- Project Card 2 -->
+        <div class="project-card">
+            <!-- <img src="project2.jpg" alt="Project 2" class="project-img"> -->
+            <div class="project-info">
+                <h3 class="project-title">Optimizinn Athelitic Performance</h3>
+                <p class="project-description"> Optimizing athletic performance involves focused training, proper nutrition, adequate rest, mental training, and the use of technology for tracking progress. This holistic approach improves strength, endurance, recovery, and mental focus, enhancing overall performance.</p>
+                <a href="https://github.com/" target="_blank" class="project-link">View Project</a>
+            </div>
+        </div>
+        <!-- Project Card 3 -->
+        <div class="project-card">
+            <!-- <img src="project3.jpg" alt="Project 3" class="project-img"> -->
+            <div class="project-info">
+                <h3 class="project-title">ImageSteganography</h3>
+                <p class="project-description">Image Steganography hides secret data within an image by altering its pixel values, making it undetectable to the naked eye. The hidden information can be retrieved later using a decryption key.</p>
+                <a href="https://github.com/" target="_blank" class="project-link">View Project</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    
+
+   
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+          <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-form-container">
+            <h1 class="greet-heading">Get In Touch</h1>
+            <form class="contact-form">
+              <input class="form-controls" type="text" placeholder="Your Name" name="name" required>
+              <input class="form-controls" type="email" placeholder="Your Email" name="email" required>
+              <input class="form-controls" type="text" placeholder="Your Phone" name="phone" required>
+              <textarea class="form-controls" placeholder="Write your message" name="message" cols="30" rows="10" required></textarea>
+              <input class="form-btn btn common-btn" type="submit" value="Send Message">
+            </form>
+          </div>
+          <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">sowmisha324@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+91 6383910051</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">South Street, Achuthurayapuram,</p>
+                    <p>Mannampandal,</p>
+                    <p>Mayiladuthurai. - 609 305.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+      
+            
+    </section>
+
+    <!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-content text-center">
+        <!-- Heading -->
+        <h2 class="social-heading">Connect with Me</h2>
+        <!-- Description -->
+        <p class="social-text">
+            Let’s stay in touch! I’d like to connect with you on social media. Follow me for updates, projects, and insights into my journey as a software engineer!
+        </p>
+        <!-- Social Media Links -->
+        <div class="social-links">
+            <ul class="footer-menu-list">
+                <!-- Instagram Link -->
+                <li class="footer-list-items">
+                    <a class="footer-links" href="https://www.instagram.com/shurthi_sowmi/profilecard/?igsh=ZzhpdTFkMW56d2lw" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span class="footer-link-text">Instagram</span>
+                    </a>
+                </li>
+                <!-- LinkedIn Link -->
+                <li class="footer-list-items">
+                    <a class="footer-links" href="https://www.linkedin.com/in/sowmiya-shanmugasundaram-60b0a2200?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span class="footer-link-text">LinkedIn</span>
+                    </a>
+                </li>
+                <!-- GitHub Link -->
+                <li class="footer-list-items">
+                    <a class="footer-links" href="https://github.com/sowmiyashanmugasundaram" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                        <span class="footer-link-text">GitHub</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
+
+
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+
+
+    <script src="baasic.js"></script>
+
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init({
+    publicKey: "1wx6blK18yPxyaCBBY",
+  });
+})();
+</script>
+
+</body>
+
+</html>
